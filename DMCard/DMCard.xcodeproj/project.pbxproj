@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148954B82145573800FC437B /* SearchResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148954B72145573800FC437B /* SearchResultsTableViewCell.swift */; };
+		14FDA04921443B2A007E3C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FDA04821443B2A007E3C68 /* AppDelegate.swift */; };
+		14FDA04B21443B2A007E3C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FDA04A21443B2A007E3C68 /* ViewController.swift */; };
+		14FDA04E21443B2A007E3C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14FDA04C21443B2A007E3C68 /* Main.storyboard */; };
+		14FDA05021443B32007E3C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14FDA04F21443B32007E3C68 /* Assets.xcassets */; };
+		14FDA05321443B32007E3C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14FDA05121443B32007E3C68 /* LaunchScreen.storyboard */; };
+		14FDA05E21443B32007E3C68 /* DMCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FDA05D21443B32007E3C68 /* DMCardTests.swift */; };
+		14FDA06921443B32007E3C68 /* DMCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FDA06821443B32007E3C68 /* DMCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14FDA05A21443B32007E3C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14FDA03D21443B2A007E3C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14FDA04421443B2A007E3C68;
+			remoteInfo = DMCard;
+		};
+		14FDA06521443B32007E3C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14FDA03D21443B2A007E3C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14FDA04421443B2A007E3C68;
+			remoteInfo = DMCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		148954B72145573800FC437B /* SearchResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewCell.swift; sourceTree = "<group>"; };
+		14FDA04521443B2A007E3C68 /* DMCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14FDA04821443B2A007E3C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14FDA04A21443B2A007E3C68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14FDA04D21443B2A007E3C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14FDA04F21443B32007E3C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14FDA05221443B32007E3C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14FDA05421443B32007E3C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14FDA05921443B32007E3C68 /* DMCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14FDA05D21443B32007E3C68 /* DMCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMCardTests.swift; sourceTree = "<group>"; };
+		14FDA05F21443B32007E3C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14FDA06421443B32007E3C68 /* DMCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14FDA06821443B32007E3C68 /* DMCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMCardUITests.swift; sourceTree = "<group>"; };
+		14FDA06A21443B32007E3C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14FDA04221443B2A007E3C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14FDA05621443B32007E3C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14FDA06121443B32007E3C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14FDA03C21443B2A007E3C68 = {
+			isa = PBXGroup;
+			children = (
+				14FDA04721443B2A007E3C68 /* DMCard */,
+				14FDA05C21443B32007E3C68 /* DMCardTests */,
+				14FDA06721443B32007E3C68 /* DMCardUITests */,
+				14FDA04621443B2A007E3C68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14FDA04621443B2A007E3C68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14FDA04521443B2A007E3C68 /* DMCard.app */,
+				14FDA05921443B32007E3C68 /* DMCardTests.xctest */,
+				14FDA06421443B32007E3C68 /* DMCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14FDA04721443B2A007E3C68 /* DMCard */ = {
+			isa = PBXGroup;
+			children = (
+				14FDA04821443B2A007E3C68 /* AppDelegate.swift */,
+				14FDA04A21443B2A007E3C68 /* ViewController.swift */,
+				148954B72145573800FC437B /* SearchResultsTableViewCell.swift */,
+				14FDA04C21443B2A007E3C68 /* Main.storyboard */,
+				14FDA04F21443B32007E3C68 /* Assets.xcassets */,
+				14FDA05121443B32007E3C68 /* LaunchScreen.storyboard */,
+				14FDA05421443B32007E3C68 /* Info.plist */,
+			);
+			path = DMCard;
+			sourceTree = "<group>";
+		};
+		14FDA05C21443B32007E3C68 /* DMCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				14FDA05D21443B32007E3C68 /* DMCardTests.swift */,
+				14FDA05F21443B32007E3C68 /* Info.plist */,
+			);
+			path = DMCardTests;
+			sourceTree = "<group>";
+		};
+		14FDA06721443B32007E3C68 /* DMCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14FDA06821443B32007E3C68 /* DMCardUITests.swift */,
+				14FDA06A21443B32007E3C68 /* Info.plist */,
+			);
+			path = DMCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14FDA04421443B2A007E3C68 /* DMCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14FDA06D21443B32007E3C68 /* Build configuration list for PBXNativeTarget "DMCard" */;
+			buildPhases = (
+				14FDA04121443B2A007E3C68 /* Sources */,
+				14FDA04221443B2A007E3C68 /* Frameworks */,
+				14FDA04321443B2A007E3C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMCard;
+			productName = DMCard;
+			productReference = 14FDA04521443B2A007E3C68 /* DMCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14FDA05821443B32007E3C68 /* DMCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14FDA07021443B32007E3C68 /* Build configuration list for PBXNativeTarget "DMCardTests" */;
+			buildPhases = (
+				14FDA05521443B32007E3C68 /* Sources */,
+				14FDA05621443B32007E3C68 /* Frameworks */,
+				14FDA05721443B32007E3C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14FDA05B21443B32007E3C68 /* PBXTargetDependency */,
+			);
+			name = DMCardTests;
+			productName = DMCardTests;
+			productReference = 14FDA05921443B32007E3C68 /* DMCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14FDA06321443B32007E3C68 /* DMCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14FDA07321443B32007E3C68 /* Build configuration list for PBXNativeTarget "DMCardUITests" */;
+			buildPhases = (
+				14FDA06021443B32007E3C68 /* Sources */,
+				14FDA06121443B32007E3C68 /* Frameworks */,
+				14FDA06221443B32007E3C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14FDA06621443B32007E3C68 /* PBXTargetDependency */,
+			);
+			name = DMCardUITests;
+			productName = DMCardUITests;
+			productReference = 14FDA06421443B32007E3C68 /* DMCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14FDA03D21443B2A007E3C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Venkatesh;
+				TargetAttributes = {
+					14FDA04421443B2A007E3C68 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					14FDA05821443B32007E3C68 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 14FDA04421443B2A007E3C68;
+					};
+					14FDA06321443B32007E3C68 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 14FDA04421443B2A007E3C68;
+					};
+				};
+			};
+			buildConfigurationList = 14FDA04021443B2A007E3C68 /* Build configuration list for PBXProject "DMCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14FDA03C21443B2A007E3C68;
+			productRefGroup = 14FDA04621443B2A007E3C68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14FDA04421443B2A007E3C68 /* DMCard */,
+				14FDA05821443B32007E3C68 /* DMCardTests */,
+				14FDA06321443B32007E3C68 /* DMCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14FDA04321443B2A007E3C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FDA05321443B32007E3C68 /* LaunchScreen.storyboard in Resources */,
+				14FDA05021443B32007E3C68 /* Assets.xcassets in Resources */,
+				14FDA04E21443B2A007E3C68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14FDA05721443B32007E3C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14FDA06221443B32007E3C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14FDA04121443B2A007E3C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FDA04B21443B2A007E3C68 /* ViewController.swift in Sources */,
+				14FDA04921443B2A007E3C68 /* AppDelegate.swift in Sources */,
+				148954B82145573800FC437B /* SearchResultsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14FDA05521443B32007E3C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FDA05E21443B32007E3C68 /* DMCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14FDA06021443B32007E3C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FDA06921443B32007E3C68 /* DMCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14FDA05B21443B32007E3C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14FDA04421443B2A007E3C68 /* DMCard */;
+			targetProxy = 14FDA05A21443B32007E3C68 /* PBXContainerItemProxy */;
+		};
+		14FDA06621443B32007E3C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14FDA04421443B2A007E3C68 /* DMCard */;
+			targetProxy = 14FDA06521443B32007E3C68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14FDA04C21443B2A007E3C68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14FDA04D21443B2A007E3C68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14FDA05121443B32007E3C68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14FDA05221443B32007E3C68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14FDA06B21443B32007E3C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14FDA06C21443B32007E3C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14FDA06E21443B32007E3C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DMCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkat.DMCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14FDA06F21443B32007E3C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DMCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkat.DMCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14FDA07121443B32007E3C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DMCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkat.DMCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMCard.app/DMCard";
+			};
+			name = Debug;
+		};
+		14FDA07221443B32007E3C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DMCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkat.DMCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMCard.app/DMCard";
+			};
+			name = Release;
+		};
+		14FDA07421443B32007E3C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DMCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkat.DMCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DMCard;
+			};
+			name = Debug;
+		};
+		14FDA07521443B32007E3C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DMCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venkat.DMCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DMCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14FDA04021443B2A007E3C68 /* Build configuration list for PBXProject "DMCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14FDA06B21443B32007E3C68 /* Debug */,
+				14FDA06C21443B32007E3C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14FDA06D21443B32007E3C68 /* Build configuration list for PBXNativeTarget "DMCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14FDA06E21443B32007E3C68 /* Debug */,
+				14FDA06F21443B32007E3C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14FDA07021443B32007E3C68 /* Build configuration list for PBXNativeTarget "DMCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14FDA07121443B32007E3C68 /* Debug */,
+				14FDA07221443B32007E3C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14FDA07321443B32007E3C68 /* Build configuration list for PBXNativeTarget "DMCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14FDA07421443B32007E3C68 /* Debug */,
+				14FDA07521443B32007E3C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14FDA03D21443B2A007E3C68 /* Project object */;
+}
